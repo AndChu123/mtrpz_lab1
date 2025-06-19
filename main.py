@@ -18,7 +18,7 @@ def solve_quadratic(a, b, c):
         return 2, [x1, x2]
 
 def print_equation(a, b, c):
-    print(f"Equation is: ({a}) x^2 + ({b}) x + ({c}) = 0")
+    print(f"Quadratic equation: ({a}) x^2 + ({b}) x + ({c}) = 0")
 
 def interactive_mode():
     while True:
